@@ -10,7 +10,7 @@
     "test:5": "vitest tests/stmnts-05.test.js --globals --run --reporter verbose",
     "test:6": "vitest tests/stmnts-06.test.js --globals --run --reporter verbose",
     "test:7": "vitest tests/stmnts-07.test.js --globals --run --reporter verbose",
-    "test": "cd tests & vitest --run stmnts-01.test.js stmnts-02.test.js stmnts-03.test.js stmnts-04.test.js --silent --globals "
+    "test": "cd tests & vitest --run stmnts-01.test.js stmnts-02.test.js stmnts-03.test.js stmnts-04.test.js stmnts-05.test.js stmnts-06.test.js stmnts-07.test.js --silent --globals "
   },
   "keywords": [],
   "author": "",
