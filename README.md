@@ -1,5 +1,7 @@
 # JS Unit Testing with Vitest
 
+## JS Statements
+
 [![tested with vitest](https://img.shields.io/badge/tested_with-vitest-99424f.svg)](https://vitest.dev/)
 
 
@@ -42,19 +44,19 @@ Start with the first file.
 
 The above npm command is equivalent to the following but is easier to type:
 
-`npx vitest tests/js-basic-01.test.js --globals --run --reporter verbose`
+`npx vitest tests/stmnts-01.test.js --globals --run --reporter verbose`
 
 as inside the package.json you see it is listed in the scripts:
 
-`"test:1": "vitest tests/js-basic-01.test.js --globals --run --reporter verbose"`
+`"test:1": "vitest tests/stmnts-01.test.js --globals --run --reporter verbose"`
 
-Since we have four files that need individual editing, we want to run individual testing as well.
+Repeat tha process for all of your test files.
 
 **NOTE:** As you are editing, don't forget to save the file before you try running the test or it won't be able to see the changes.
 
 ---
 
-So the above example tests the first file `tests/js-basic-01.test.js` and outputs the results to the console.
+So the above example tests the first file `tests/stmnts-01.test.js` and outputs the results to the console.
 
 If a test fails, vitest will identify it as failing and print one or more error messages, depending on the test expectations.
 
@@ -64,7 +66,7 @@ If a test fails, vitest will identify it as failing and print one or more error 
 
 One-by-one and in order, edit each JavaScript file and follow the instructions for each coding skill. You should run the test after each completed skill and see the pass count increase. When one file passes completely, you are ready for the next file.
 
-Start with js-basic-01.test.js and finish with js-basic-04.test
+Start with stmnts-01.test.js and finish with stmnts-04.test
 
 ---
 
