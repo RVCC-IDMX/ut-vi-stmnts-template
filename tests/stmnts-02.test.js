@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const { sum, betterSum, remainder } = require('../src/stmnts-02');
 
 test('sum', () => {
