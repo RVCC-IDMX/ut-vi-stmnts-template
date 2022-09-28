@@ -25,6 +25,8 @@ test('convertMinutesToSeconds', () => {
   expect(convertMinutesToSeconds(2)).toBe(120);
   expect(convertMinutesToSeconds(1.5)).toBe(90);
   expect(convertMinutesToSeconds(0)).toBe(0);
+  //
+  expect(convertMinutesToSeconds(2.13456)).toBeTypeOf('number');
   expect(convertMinutesToSeconds(2.13456)).toBeCloseTo(128.0736, 4);
 });
 
