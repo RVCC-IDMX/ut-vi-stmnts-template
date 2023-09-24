@@ -10,7 +10,7 @@
  * @param {*} a - first parameter
  * @param {*} b - second parameter
  * @returns {boolean} - true if a and b are both true, false otherwise
- * ? [JavaScript: The Definitive Guide, Chapter 4.10](https://bit.ly/39lbxnK)
+
  */
 function logicalAnd(a, b) {
   // write your code here & return
@@ -46,7 +46,7 @@ function invertBoolean(bool) {
  * ? for example, if num is 9 you will check 0,1,2,3,4,5,6,7,8
  * ? and count of the odd values is 4
  * ?
- * ? [JavaScript: The Definitive Guide, Chapter 5.4.3](https://bit.ly/39hrIlW)
+
  */
 function numberOfOdds(num) {
   // write your code here & return
@@ -97,7 +97,7 @@ function gradeGenerator(score) {
  * ? return a string written like:
  * ? Francine got an A
  * ? David got a B
- * ? note: you have to use English grammar's correct indefinite article 
+ * ? note: you have to use English grammar's correct indefinite article
  * ? it's 'an A' (not a A) and 'an F' (not a F)
  */
 function getGrade(name, score) {

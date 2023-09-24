@@ -41,7 +41,7 @@ function sayHelloOrBye(name, num) {
  * @param {string} str1 - the first string to compare
  * @param {string} str2 - the second string to compare
  * @returns {boolean} - true if the strings are the same, false otherwise
- * ? [JavaScript: The Definitive Guide, Chapter 4.9.2](https://bit.ly/3Cvjcw2)
+
  */
 function compareStrings(str1, str2) {
   // write your code here & return

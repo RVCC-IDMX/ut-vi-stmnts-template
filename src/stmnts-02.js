@@ -4,7 +4,7 @@
  * Test: tests/stmnts-02.test.js
  * Path: src/stmnts-02.js
  * Arithmetic Operators
- * [JavaScript: The Definitive Guide, Chapter 4.7](https://bit.ly/3klr79d)
+
  */
 
 /**
@@ -33,7 +33,7 @@ function betterSum(x, y) {
  * @param {number} divisor - the divisor of the number
  * @returns {number} - the remainder of the number and the divisor
  *
- * ? [JavaScript: The Definitive Guide, Chapter 4.8](https://bit.ly/2Z30rSk)
+ *
  * ? computes the first operand modulo the second operand
  */
 function remainder(number, divisor) {
