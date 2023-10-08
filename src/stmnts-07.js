@@ -72,11 +72,11 @@ function addUpTheNumbers(num) {
  * ? score is a positive integer 0 through 100
  * ? generate a letter grade based on the following
  * ? table
- * ? < 60	F
- * ? < 70	D
- * ? < 80	C
- * ? < 90	B
- * ? <= 100	A
+ * ? < 60 F
+ * ? < 70 D
+ * ? < 80 C
+ * ? < 90 B
+ * ? <= 100 A
  * ? return the letter grade as a string
  * ?
  */
